@@ -70,7 +70,6 @@ export default function Counter() {
     marginBottom: '0.3em',
     color: count === 0 ? 'royalblue' : 'crimson' /* STEP 2 */
   };
-  // {if count is even number, then string "even", else string "odd"}.
   return (
     <div className='widget-counter container'>
       <h2>Counter</h2>
